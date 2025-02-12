@@ -1,0 +1,96 @@
+/* ============================
+   👥 Users Page Styles (Modern & Attractive)
+   ============================ */
+
+   .users-page {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 8px;
+}
+
+/* Add User Button */
+.users-page .btn-primary {
+    background-color: #007bff; /* Blue */
+    border: none;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 10px 15px;
+}
+
+.users-page .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* User Form */
+.user-form {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.user-form .form-control {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.user-form .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.user-form .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.user-form .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.user-form .btn-secondary:hover {
+    background-color: #545b62;
+}
+
+/* User List */
+.user-list {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.user-list th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.user-list td {
+    color: #333;
+    padding: 10px;
+}
+
+.user-list tr:hover {
+    background-color: #f1f1f1; /* Light gray on hover */
+    transition: background 0.3s;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+    .users-page .row > div {
+        margin-bottom: 20px;
+    }
+
+    .user-list th,
+    .user-list td {
+        padding: 8px;
+    }
+}

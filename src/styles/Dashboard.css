@@ -1,0 +1,83 @@
+/* ============================
+   📊 Dashboard Page Styles (Modern & Attractive)
+   ============================ */
+
+   .dashboard-page {
+    padding: 20px;
+    background-color: #ecf0f1; /* Light gray */
+    border-radius: 8px;
+}
+
+/* 📊 Summary Cards */
+.summary-card {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.summary-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Titles & Values */
+.summary-card .card-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #34495e;
+}
+
+.summary-card .card-text {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2ecc71; /* Green */
+}
+
+/* 📈 Pie Charts */
+.pie-chart-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* 📋 Recent Transactions */
+.recent-transactions {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.recent-transactions th {
+    background-color: #3498db; /* Blue */
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.recent-transactions td {
+    padding: 12px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+.recent-transactions tr:hover {
+    background-color: #f0f0f0;
+    transition: background 0.3s;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+    .summary-card {
+        margin-bottom: 20px;
+    }
+
+    .pie-chart-container {
+        margin-bottom: 20px;
+    }
+}

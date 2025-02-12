@@ -1,0 +1,113 @@
+/* ============================
+   💰 Transactions Page Styles (Modern & Attractive)
+   ============================ */
+
+   .transactions-page {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 8px;
+}
+
+/* Add Transaction Button */
+.transactions-page .btn-primary {
+    background-color: #ff9800; /* Orange */
+    border: none;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 10px 15px;
+}
+
+.transactions-page .btn-primary:hover {
+    background-color: #e68900; /* Darker orange */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Transaction Filter */
+.transaction-filter {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.transaction-filter .form-control {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.transaction-filter .btn-primary {
+    background-color: #ff9800;
+    border: none;
+}
+
+.transaction-filter .btn-primary:hover {
+    background-color: #e68900;
+}
+
+.transaction-filter .btn-danger {
+    background-color: #f44336; /* Red */
+    border: none;
+}
+
+.transaction-filter .btn-danger:hover {
+    background-color: #c62828; /* Darker red */
+}
+
+/* Transaction Table */
+.transactions-table {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.transactions-table th {
+    background-color: #ff9800;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.transactions-table td {
+    color: #333;
+    padding: 10px;
+}
+
+.transactions-table tr:hover {
+    background-color: #f1f1f1; /* Light gray on hover */
+    transition: background 0.3s;
+}
+
+/* Pagination */
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #ff9800;
+    border-color: #ff9800;
+}
+
+.pagination .page-link {
+    color: #ff9800;
+}
+
+.pagination .page-link:hover {
+    color: #e68900;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+    .transaction-filter .row > div {
+        margin-bottom: 10px;
+    }
+
+    .transactions-table th,
+    .transactions-table td {
+        padding: 8px;
+    }
+}

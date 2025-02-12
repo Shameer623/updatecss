@@ -1,0 +1,83 @@
+/* ============================
+   🦸 Header Styles (Modern & Attractive)
+   ============================ */
+
+   .navbar {
+    background-color: #34495e; /* Dark blue */
+    padding: 12px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.navbar-brand img {
+    height: 45px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+/* Navigation Links */
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 12px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #f1c40f !important; /* Yellow on hover */
+}
+
+/* Active Link */
+.navbar-nav .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+}
+
+/* User Text */
+.navbar-text {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Logout Button */
+.btn-outline-danger {
+    color: white;
+    border-color: white;
+    padding: 8px 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-danger:hover {
+    background-color: white;
+    color: #e74c3c;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 6px 0;
+        padding: 10px;
+    }
+
+    .navbar-text {
+        margin-right: 12px;
+    }
+
+    .btn-outline-danger {
+        padding: 6px 12px;
+    }
+}

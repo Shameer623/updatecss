@@ -1,0 +1,112 @@
+/* ============================
+   📊 Budget Page Styles (Modern & Attractive)
+   ============================ */
+
+   .budget-page {
+    padding: 20px;
+    background-color: #ecf0f1; /* Light gray */
+    border-radius: 8px;
+}
+
+/* 🔹 Add Budget Button */
+.budget-page .btn-primary {
+    background-color: #27ae60; /* Green */
+    border: none;
+    transition: all 0.3s ease-in-out;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.budget-page .btn-primary:hover {
+    background-color: #1e8449; /* Darker green */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* 📝 Budget Form */
+.budget-form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.budget-form .form-control {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.budget-form .form-control:focus {
+    border-color: #27ae60;
+    box-shadow: 0 0 5px rgba(39, 174, 96, 0.5);
+}
+
+/* Budget Form Buttons */
+.budget-form .btn-primary {
+    background-color: #27ae60;
+    border: none;
+}
+
+.budget-form .btn-primary:hover {
+    background-color: #1e8449;
+}
+
+.budget-form .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.budget-form .btn-secondary:hover {
+    background-color: #545b62;
+}
+
+/* 📋 Budget List Table */
+.budget-list {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.budget-list table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.budget-list th {
+    background-color: #27ae60;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.budget-list td {
+    padding: 12px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+.budget-list tr:hover {
+    background-color: #f0f0f0;
+    transition: background 0.3s;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+    .budget-page .row > div {
+        margin-bottom: 20px;
+    }
+
+    .budget-list th,
+    .budget-list td {
+        padding: 10px;
+    }
+}

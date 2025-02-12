@@ -1,0 +1,69 @@
+/* ============================
+   🏠 Home Page Styles (Modern & Attractive)
+   ============================ */
+
+   .home-page-background {
+    background-image: url('../assets/Images/background_home.webp'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    backdrop-filter: blur(5px); /* Soft blur effect */
+}
+
+/* Title */
+.home-page-background h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+}
+
+/* Subtitle */
+.home-page-background p {
+    font-size: 22px;
+    color: #f1f1f1;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+}
+
+/* Get Started Button */
+.home-page-background .btn-success {
+    background-color: #e67e22; /* Orange */
+    border: none;
+    padding: 14px 26px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-page-background .btn-success:hover {
+    background-color: #d35400; /* Darker orange */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.home-page-background .btn-success i {
+    margin-left: 8px;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+    .home-page-background h1 {
+        font-size: 36px;
+    }
+
+    .home-page-background p {
+        font-size: 18px;
+    }
+
+    .home-page-background .btn-success {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+}

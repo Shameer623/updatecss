@@ -1,0 +1,106 @@
+/* ============================
+   🗂️ Categories Page Styles (Modern & Attractive)
+   ============================ */
+
+   .categories-page {
+    padding: 20px;
+    background-color: #ecf0f1; /* Light gray */
+    border-radius: 8px;
+}
+
+/* 🔹 Add Category Button */
+.categories-page .btn-primary {
+    background-color: #8e44ad; /* Purple */
+    border: none;
+    transition: all 0.3s ease-in-out;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.categories-page .btn-primary:hover {
+    background-color: #732d91; /* Darker purple */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* 📝 Category Form */
+.category-form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.category-form .form-control {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.category-form .form-control:focus {
+    border-color: #8e44ad;
+    box-shadow: 0 0 5px rgba(142, 68, 173, 0.5);
+}
+
+/* Category Form Buttons */
+.category-form .btn-primary {
+    background-color: #8e44ad;
+    border: none;
+}
+
+.category-form .btn-primary:hover {
+    background-color: #732d91;
+}
+
+.category-form .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.category-form .btn-secondary:hover {
+    background-color: #545b62;
+}
+
+/* 📋 Category List Table */
+.category-list {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.category-list th {
+    background-color: #8e44ad;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.category-list td {
+    padding: 12px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+.category-list tr:hover {
+    background-color: #f0f0f0;
+    transition: background 0.3s;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+    .categories-page .row > div {
+        margin-bottom: 20px;
+    }
+
+    .category-list th,
+    .category-list td {
+        padding: 10px;
+    }
+}

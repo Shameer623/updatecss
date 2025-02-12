@@ -1,0 +1,108 @@
+/* ============================
+   🔐 Login Page Styles (Modern & Attractive)
+   ============================ */
+
+   .login-page {
+    background-color: #ecf0f1; /* Light gray background */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Form Container */
+.form-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Title */
+.form-container h1 {
+    color: #3498db; /* Blue */
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Form Inputs */
+.form-group label {
+    font-weight: 500;
+    color: #34495e;
+    text-align: left;
+    display: block;
+}
+
+.form-control {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #3498db; /* Blue */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Login Button */
+.btn-primary {
+    background-color: #3498db; /* Blue */
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    width: 100%;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #217dbb; /* Darker blue */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Error Message */
+.alert-danger {
+    background-color: #e74c3c; /* Red */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Forgot Password */
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #3498db;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 20px;
+    }
+
+    .form-container h1 {
+        font-size: 24px;
+    }
+
+    .btn-primary {
+        font-size: 14px;
+    }
+}
