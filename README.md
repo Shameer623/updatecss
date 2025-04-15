@@ -19,7 +19,7 @@ SmartSpend helps you manage your finances effortlessly by tracking your daily ex
 
 ####  **Setup Instructions**
 - Clone the repository:
-`git clone https://github.com/mathinraj/Smartspend`
+`git clone https://github.com/Shameer623/Smartspend`
 
 - Configure your `application.properties` with MySQL credentials.
 - Run the application using Maven:
